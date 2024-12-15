@@ -4,16 +4,27 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-light bg-light">
-      <div className="container-fluid d-flex justify-content-between align-items-center">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <div className="container-fluid">
         {/* Left-aligned Home link */}
         <Link className="navbar-brand" to="/">Home</Link>
 
-        {/* Center-aligned Scholarships link */}
-        <div className="d-flex justify-content-center flex-grow-1">
-          <ul className="navbar-nav">
+        {/* Toggle button for mobile view */}
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+
+        {/* Center-aligned links */}
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav mx-auto">
             <li className="nav-item">
-              <Link className="nav-link" to="/scholarships">Scholarships</Link>
+              <Link className="nav-link" to="/our-mission">Our Mission</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/resources">Resources</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/contact-us">Contact Us</Link>
             </li>
           </ul>
         </div>
