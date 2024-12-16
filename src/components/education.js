@@ -33,16 +33,16 @@ function Education() {
             link: 'https://www.scholarships.com/financial-aid/grants'        
         },
         {
-            title: '',
-            imgSrc: 'https://via.placeholder.com/150',
-            description: '',
-            link: ''       
+            title: 'FASFA',
+            imgSrc: 'https://www.nga.org/wp-content/uploads/2024/04/fafsa-400.png',
+            description: 'The Free Application for Federal Student Aid (FAFSA) is a free form that students use to apply for financial aid for college, career school, or graduate school. The FAFSA is the primary source of financial aid for students and can help pay for grants, scholarships, work-study funds, and loans.',
+            link: 'https://studentaid.gov/'
         },
         {
-            title: '',
-            imgSrc: 'https://via.placeholder.com/150',
-            description: '',
-            link: ''
+            title: 'Dream Act',
+            imgSrc: 'https://www.gavilan.edu/finaid/images/dreamact.jpg',
+            description: 'The Dream Act is a proposed law that would grant legal status to undocumented immigrants who came to the United States as children. The term "Dreamers" refers to young undocumented immigrants.',
+            link: 'https://dream.csac.ca.gov/landing'
         }
       ];
     
