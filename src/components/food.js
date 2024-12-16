@@ -80,13 +80,10 @@ function Food() {
         </div>
       </div>
       <footer className="text-center mt-auto py-3 bg-light">
-        Enrique Rangel, Alyssa Calleros, Smirth Luciano Salinas @CSUMB 2024
-      </footer>
+            Enrique Rangel, Alyssa Calleros, Smirth Luciano Salinas, Paradise Williams @CSUMB 2024
+          </footer>
     </div>
   );
 }
 
 export default Food;
-
-
-//         Enrique Rangel, Alyssa Calleros, Smirth Luciano Salinas @CSUMB 2024
