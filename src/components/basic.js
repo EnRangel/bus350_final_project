@@ -3,6 +3,8 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './navbar';
 import './food.css';
+import './footer.css';
+import logo from "./logo.png";
 
 function Basic() {
     const cards = [
@@ -49,42 +51,48 @@ function Basic() {
       };
     
       return (
-        <div className="d-flex flex-column min-vh-100">
-          <Navbar />
-          <div className="container text-center mt-5 flex-grow-1">
-            <h1>Basic Needs</h1>
-            <div className="row">
-              {cards.map((card, index) => (
-                <div className="col-md-4 mb-4" key={index}>
-                  <div className="flip-card" onClick={flipCard}>
-                    <div className="flip-card-inner">
-                      <div className="flip-card-front">
-                        <h5>{card.title}</h5>
-                        <img src={card.imgSrc} alt={card.title} className="img-fluid" />
-                      </div>
-                      <div className="flip-card-back">
-                        <p>{card.description}</p>
-                        <button
-                          className="btn btn-primary"
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            window.open(card.link, '_blank');
-                          }}
-                        >
-                          Go to Site
-                        </button>
-                      </div>
-                    </div>
+          <div className="d-flex flex-column min-vh-100">
+              <Navbar/>
+              <div className="container text-center mt-5 flex-grow-1">
+                  <h1>Basic Needs</h1>
+                  <div className="row">
+                      {cards.map((card, index) => (
+                          <div className="col-md-4 mb-4" key={index}>
+                              <div className="flip-card" onClick={flipCard}>
+                                  <div className="flip-card-inner">
+                                      <div className="flip-card-front">
+                                          <h5>{card.title}</h5>
+                                          <img src={card.imgSrc} alt={card.title} className="img-fluid"/>
+                                      </div>
+                                      <div className="flip-card-back">
+                                          <p>{card.description}</p>
+                                          <button
+                                              className="btn btn-primary"
+                                              onClick={(e) => {
+                                                  e.stopPropagation();
+                                                  window.open(card.link, '_blank');
+                                              }}
+                                          >
+                                              Go to Site
+                                          </button>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      ))}
                   </div>
-                </div>
-              ))}
-            </div>
+              </div>
+
+              <footer className="text-center mt-auto p-4" style={{backgroundColor: 'darkblue', color: 'white'}}>
+                  <img id="csumb_logo" src={logo} alt="CSUMB Logo, an otter." className="mb-3"
+                       style={{width: '150px'}}/>
+                  <p className="mb-1">BUS350 Financial Literacy. 2024 Ⓒ Rangel, Luciano, Calleros, Williams</p>
+                  <p>
+                      <strong>Disclaimer:</strong> This information on this webpage is used for academic purposes only.
+                  </p>
+              </footer>
           </div>
-          <footer className="text-center mt-auto py-3 bg-light">
-            Enrique Rangel, Alyssa Calleros, Smirth Luciano Salinas, Paradise Williams @CSUMB 2024
-          </footer>
-        </div>
       );
-    }
+}
 
 export default Basic;

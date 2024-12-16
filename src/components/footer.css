@@ -1,0 +1,39 @@
+footer {
+    font-style: italic;
+    font-size: smaller;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+img#csumb_logo {
+    width: 25%;
+}
+
+.portrait_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 45px;
+}
+
+.portrait {
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+    border: 5px solid darkblue;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.portrait:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+figcaption {
+    font-style: italic;
+}
