@@ -13,14 +13,14 @@ function Food() {
     },
     {
       title: 'CalFresh',
-      imgSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUsHYeF-jBcOLJ4wh-7Rq1ob89szBoayjW2g&s',
+      imgSrc: 'https://www.countynewscenter.com/wp-content/uploads/CalFreshHealthy-1.png',
       description: 'Apply for CalFresh in just 10 minutes! CalFresh will give you SNAP benefits, meaning free food money in the form of EBT cards! EBT cards can work at groceries, farmers markets, and most other food stores.',
       link: 'https://www.getcalfresh.org/?source=g2&gclid=CjwKCAjw1cX0BRBmEiwAy9tKHhhiUG10L0E5cYjrmy8SZffqoTPlcWFigGcThc0ySzBibgTTFoib1RoC_KoQAvD_BwE'
     },
     {
       title: 'Food Bank Monterey County',
       imgSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeqIk2syjUH-FqgYsfZSevezwF4NITy8cRLQ&s',
-      description: 'The Food Bank County of Monterey can give you fresh food right away, no application needed! They provide fresh high-quality food, free farmers markets, and mobile produce pantries! Theyre also partnered with many nonprofit networks all over the county to give you the help you need! ',
+      description: 'The Food Bank for Monterey County works to end hunger and improve community health by distributing nutritious food and resources to over 160 local nonprofit partners.',
       link: 'https://foodbankformontereycounty.org/'
     },
     {
