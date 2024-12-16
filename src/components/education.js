@@ -7,28 +7,28 @@ import './food.css';
 function Education() {
     const cards = [
         {
-          title: '',
+          title: 'Universal Class',
           imgSrc: 'https://via.placeholder.com/150',
           description: '',
-          link: ''
+          link: 'https://www.universalclass.com/'
         },
         {
-            title: '',
+            title: 'Community Foundation for Monterey County',
             imgSrc: 'https://via.placeholder.com/150',
             description: '',
-            link: ''        
+            link: 'https://cfmco.org/scholarships/resources/'        
         },
         {
-            title: '',
+            title: 'Cal Grant',
             imgSrc: 'https://via.placeholder.com/150',
             description: '',
-            link: ''        
+            link: 'https://www.csac.ca.gov/cal-grants'        
         },
         {
-            title: '',
+            title: 'Scholorships.com',
             imgSrc: 'https://via.placeholder.com/150',
             description: '',
-            link: ''        
+            link: 'https://www.scholarships.com/financial-aid/grants'        
         },
         {
             title: '',
@@ -81,7 +81,7 @@ function Education() {
             </div>
           </div>
           <footer className="text-center mt-auto py-3 bg-light">
-            Enrique Rangel, Alyssa Calleros, Smirth Luciano Salinas @CSUMB 2024
+            Enrique Rangel, Alyssa Calleros, Smirth Luciano Salinas, Paradise Williams @CSUMB 2024
           </footer>
         </div>
       );
