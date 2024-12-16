@@ -2,10 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import './navbar.css'; // Import custom styles
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+<nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">Home</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
