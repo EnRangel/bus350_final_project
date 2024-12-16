@@ -20,7 +20,7 @@ function Home() {
               <img src="https://img.freepik.com/premium-vector/food-donation-meal-donates-vector-illustration_353502-460.jpg" className="card-img-top" alt="Food" />
               <div className="card-body">
                 <h5 className="card-title">Food</h5>
-                <p className="card-text">Scholarships, grants, etc.</p>
+                {/* <p className="card-text">Scholarships, grants, etc.</p> */}
               </div>
             </div>
           </div>
@@ -30,7 +30,7 @@ function Home() {
               <img src="https://www.shutterstock.com/image-vector/basic-needs-vector-icon-need-600nw-2302590675.jpg" className="card-img-top" alt="Basic Needs" />
               <div className="card-body">
                 <h5 className="card-title">Basic Needs</h5>
-                <p className="card-text">Cal Fresh, county food bank, etc</p>
+                {/* <p className="card-text">Cal Fresh, county food bank, etc</p> */}
               </div>
             </div>
           </div>
@@ -40,7 +40,7 @@ function Home() {
               <img src="https://www.cft.org/sites/main/files/imagecache/thumbnail/main-images/scholarship-application-portal_is-1220073028_0.png?1637609139" className="card-img-top" alt="Education" />
               <div className="card-body">
                 <h5 className="card-title">Education</h5>
-                <p className="card-text">Description</p>
+                {/* <p className="card-text">Description</p> */}
               </div>
             </div>
           </div>
