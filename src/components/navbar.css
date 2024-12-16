@@ -1,0 +1,12 @@
+.navbar-nav .nav-link {
+    font-size: 1.3rem; /* Makes the text larger */
+    margin: 0 15px;   /* Adds spacing between links */
+    
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem; /* Adjust the brand font size */
+  }
+  .navbar {
+    background-color: #002A4E; /* A shade of blue */
+  }
