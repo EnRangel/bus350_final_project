@@ -1,0 +1,21 @@
+.mission-statement, .goal, .motto {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mission-statement h2, .goal h2, .motto h2 {
+    color: darkblue;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h1{
+    color: darkblue;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.motto p {
+    font-style: italic;
+    font-size: 1.2rem;
+}
