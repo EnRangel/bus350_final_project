@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './footer.css';
 import './ourMission.css';
 import logo from "./logo.png";
-import SmirthLuciano from "./SmirthLuciano.jpeg";
+// import SmirthLuciano from "./SmirthLuciano.jpeg";
 
 function OurMission() {
     return (
@@ -12,7 +12,7 @@ function OurMission() {
             <Navbar />
 
             <div className="container text-center mt-5 flex-grow-1">
-                <h1 className="mb-4 fw-bold">Our Team</h1>
+                {/* <h1 className="mb-4 fw-bold">Our Team</h1>
 
                 <div className="portrait_container mb-5">
                     <figure className="m-3">
@@ -34,7 +34,7 @@ function OurMission() {
                         <img className="portrait shadow" src={SmirthLuciano} alt="Paradise Williams" />
                         <figcaption className="mt-2 fw-semibold">Paradise Williams</figcaption>
                     </figure>
-                </div>
+                </div> */}
 
                 <div className="mission-statement mt-5 mb-4">
                     <h2 className="text-primary fw-bold">Our Mission</h2>
